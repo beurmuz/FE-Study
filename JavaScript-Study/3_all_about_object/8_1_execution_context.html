@@ -1,0 +1,32 @@
+<script>
+  // 1. 실행 컨텍스트 알아보기
+  //   function one() {
+  //     console.log("run 1");
+  //     console.log("run 1 end");
+  //   }
+
+  //   function two() {
+  //     console.log("run 2");
+  //     one();
+  //     console.log("run 2 end");
+  //   }
+
+  //   function three() {
+  //     console.log("run 3");
+  //     two();
+  //     console.log("run 3 end");
+  //   }
+  //   three();
+
+  // 2. creation, execution Phase 알아보기
+  var n1 = 20;
+  var n2 = 30;
+
+  function multiply(x, y) {
+    var result = x * y;
+    return result;
+  }
+
+  var result1 = multiply(n1, n2);
+  var result2 = multiply(100, 200);
+</script>
