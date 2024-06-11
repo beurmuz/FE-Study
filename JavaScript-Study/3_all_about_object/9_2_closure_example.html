@@ -1,0 +1,12 @@
+<script>
+  function getNum() {
+    var num = 3;
+
+    function innerGetNum() {
+      return num;
+    }
+    return innerGetNum;
+  }
+  const runner = getNum();
+  console.log(runner());
+</script>
