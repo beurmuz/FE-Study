@@ -31,8 +31,8 @@ console.log("----------");
  * let으로 변수를 선언하면, 값이 초기화 되기 전에 값에 접근하는 것을 방지할 수 있다.
  */
 
-console.log(ages); // ages가 정의되지 않았다.
+// console.log(ages); // ages가 정의되지 않았다.
 // let ages = 26;
 
-console.log(ages2); // ages가 정의되지 않았다.
+// console.log(ages2); // ages가 정의되지 않았다.
 // const ages2 = 27;
