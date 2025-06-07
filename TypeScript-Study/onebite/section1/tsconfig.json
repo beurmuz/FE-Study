@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "dist",
+    "strict": true
+  },
+  "include": ["src"]
+}
