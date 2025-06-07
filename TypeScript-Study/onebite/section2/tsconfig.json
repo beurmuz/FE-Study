@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "moduleDetection": "force",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true, // 보통 필요
+    "skipLibCheck": true // 외부 타입 충돌 방지 (선택)
+  },
+  "include": ["src"]
+}
